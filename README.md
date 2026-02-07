@@ -125,6 +125,8 @@ Esta app sirve para:
 
 *Es como un álbum de cromos digital, pero organizado, bonito y automático.*
 
-## Autores
-**Moree7**  
-**hateblonde**
+
+## 👤 Autores
+- Moree7
+- ihateblonde
+
