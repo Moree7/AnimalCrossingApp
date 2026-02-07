@@ -58,14 +58,15 @@ Los objetos NO donados aparecen arriba
 
 Los donados se agrupan abajo en una sección plegable
 
-Así siempre ves primero lo que te falta
+Así siempre ves primero lo que te falta.
 
 Progreso
 
 Arriba verás algo como:
-
+```
 Progreso: 12 / 80 (15%)
 
+```
 
 Eso significa cuántos llevas completados.
 
