@@ -76,9 +76,9 @@ Así siempre ves primero lo que te falta
 ---
 
 # Progreso
-
+````
 **Progreso:** 12 / 88 (15%)
-
+````
 Eso significa cuántos llevas completados.
 
 Si tocas ese indicador, la app puede llevar directamente a la sección de donados.
