@@ -1,53 +1,62 @@
-# 🌿 Animal Crossing App 🌿
-
 <div align="center">
-🐾 Animal Crossing App
+
+<h1>🐾 Animal Crossing App</h1>
+
+<p>
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Build-Gradle-02303A?style=flat-square&logo=gradle&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square"/>
+  <img src="https://img.shields.io/badge/License-Apache%202.0-FCC624?style=flat-square"/>
+</p>
+
 </div>
 
-¿Qué es esta app y para qué sirve?
+<hr/>
+
+## ¿Qué es esta app y para qué sirve?
 
 Esta app es una guía personal de coleccionables inspirada en Animal Crossing.
-
 En el juego, los jugadores pueden encontrar y donar distintos objetos a un museo.
-
 La app te ayuda a llevar el control de esos objetos, aunque no juegues ni conozcas el juego.
 
-<br>
+> Piensa en ella como una lista de colecciones organizada y visual.
 
-Piensa en ella como una lista de colecciones organizada y visual.
+---
 
-¿Qué tipo de cosas hay en la app?
+## ¿Qué tipo de cosas hay en la app?
 
 La app está dividida en categorías, cada una con su propio color:
 
 <div align="center">
 
-🐟 Peces   •  
-🐞 Bichos (insectos)   •  
-🌊 Criaturas marinas   •  
-🦴 Fósiles   •  
-🖼️ Obras de arte
+🐟 **Peces** • 🐞 **Bichos (insectos)** • 🌊 **Criaturas marinas** • 🦴 **Fósiles** • 🖼️ **Obras de arte**
 
 </div>
+
+---
+
 Cada elemento de la lista es un objeto coleccionable con:
 
-Un nombre
+- Un nombre
+- A veces un subtítulo o descripción
+- Un estado: donado o no donado
 
-A veces un subtítulo o descripción
+---
 
-Un estado: donado o no donado
-
-Pantalla principal (Inicio)
+## Pantalla principal (Inicio)
 
 Desde la pantalla de inicio puedes:
 
-Entrar en cualquier categoría (por ejemplo: Peces)
-
-Ver cuántos objetos llevas completados en cada una
+- Entrar en cualquier categoría (por ejemplo: Peces)
+- Ver cuántos objetos llevas completados en cada una
 
 No necesitas saber qué es cada cosa: la app te guía visualmente.
 
-Pantalla de lista (una categoría)
+---
+
+## Pantalla de lista (una categoría)
 
 Aquí ves todos los objetos de una categoría.
 
@@ -59,18 +68,25 @@ Cada tarjeta muestra:
 
 ✏️ Un icono de editar → cambia nombre o descripción
 
-Organización inteligente
+---
+
+## Organización inteligente
+
 <div align="center">
 
-Los objetos NO donados aparecen arriba
-Los donados se agrupan abajo en una sección plegable
+Los objetos NO donados aparecen arriba  
+Los donados se agrupan abajo en una sección plegable  
 Así siempre ves primero lo que te falta
 
 </div>
-Progreso
+
+---
+
+## Progreso
 
 Arriba verás algo como:
-````
+
+```txt
 Progreso: 12 / 80 (15%)
 ````
 
@@ -137,9 +153,9 @@ En resumen
 📤 Compartir información fácilmente
 🧠 Usarla sin saber nada de Animal Crossing
 
-<br>
+<br/>
 
-Es como un álbum de cromos digital, pero organizado, bonito y automático.
+<strong>Es como un álbum de cromos digital, pero organizado, bonito y automático.</strong>
 
 </div>
 
