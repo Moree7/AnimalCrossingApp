@@ -1,86 +1,146 @@
 # 🌿 Animal Crossing App 🌿
 
-Aplicación Android desarrollada en Kotlin con Jetpack Compose, inspirada en el universo de Animal Crossing.
+¿Qué es esta app y para qué sirve?
 
-Esta app funciona como un compañero del museo, permitiendo llevar un control tipo checklist de todos los elementos coleccionables del juego.
+Esta app es una guía personal de coleccionables inspirada en Animal Crossing.
+En el juego, los jugadores pueden encontrar y donar distintos objetos a un museo.
+La app te ayuda a llevar el control de esos objetos, aunque no juegues ni conozcas el juego.
 
-## 🏝️ ¿Qué puedes hacer en la app?
+Piensa en ella como una lista de colecciones organizada y visual.
 
-- 🐟 Registrar peces
-- 🤿 Registrar pesca submarina
-- 🦋 Registrar bichos
-- 🦴 Registrar fósiles
-- 🎨 Registrar obras de arte
-- ☑️ Marcar los elementos ya conseguidos
-- 🔍 Consultar información detallada de cada elemento
-- 🧭 Navegar entre pantallas de forma fluida y sencilla
+¿Qué tipo de cosas hay en la app?
 
-## 📱 Pantallas de la aplicación (se implementarán más adelante)
+La app está dividida en categorías, cada una con su propio color:
 
-- Login (pantalla inicial ficticia)
-- Home con acceso a las categorías
-- Listas con checklist interactiva
-- Detalle con información del coleccionable
+🐟 Peces
 
-## 🎨 Estilo y diseño
+🐞 Bichos (insectos)
 
-Inspirado directamente en Animal Crossing:
+🌊 Criaturas marinas
 
-- 🌿 Colores pastel y naturales
-- 🪵 Tonos suaves y cálidos
-- 🧩 Cards redondeadas
-- ✨ Interfaz limpia y relajante
-- 🖋️ Tipografías amigables
+🦴 Fósiles
 
-## 🧭 Arquitectura del proyecto
-```
-com.example.animalcrossingapp
-├── MainActivity.kt
-├── AnimalCrossingApp.kt
-├── data
-│ ├── local
-│ ├── remote
-│ └── repository
-├── di
-│ └── AppModule.kt
-├── domain
-│ └── CollectibleType.kt
-├── navigation
-│ ├── AppNavigation.kt
-│ └── Screen.kt
-├── ui
-│ ├── common
-│ ├── debug
-│ ├── detail
-│ │ └── DetailScreen.kt
-│ ├── home
-│ │ └── HomeScreen.kt
-│ ├── list
-│ │ ├── CollectibleItem.kt
-│ │ └── ListScreen.kt
-│ ├── login
-│ │ └── LoginScreen.kt
-│ ├── model
-│ │ └── CollectibleUi.kt
-│ └── theme
-├── viewModel
-└── ui.theme
-```
+🖼️ Obras de arte
 
-## 🛠️ Tecnologías utilizadas
+Cada elemento de la lista es un objeto coleccionable con:
 
-- Kotlin
-- Jetpack Compose
-- Navigation Compose
-- Room
+Un nombre
 
-## 🚧 Estado del proyecto
+A veces un subtítulo o descripción
 
-### 📌 Proyecto en desarrollo
-La aplicación cuenta con una base funcional completa y está preparada para seguir ampliándose.
+Un estado: donado o no donado
+
+Pantalla principal (Inicio)
+
+Desde la pantalla de inicio puedes:
+
+Entrar en cualquier categoría (por ejemplo: Peces)
+
+Ver cuántos objetos llevas completados en cada una
+
+No necesitas saber qué es cada cosa: la app te guía visualmente.
+
+Pantalla de lista (una categoría)
+
+Aquí ves todos los objetos de una categoría.
+
+Cada tarjeta muestra:
+
+⬜ Un checkbox → marca si ya lo has “donado”
+
+ℹ️ Un icono de información → abre los detalles
+
+✏️ Un icono de editar → cambia nombre o descripción
+
+Organización inteligente
+
+Los objetos NO donados aparecen arriba
+
+Los donados se agrupan abajo en una sección plegable
+
+Así siempre ves primero lo que te falta
+
+Progreso
+
+Arriba verás algo como:
+
+Progreso: 12 / 80 (15%)
+
+
+Eso significa cuántos llevas completados.
+
+Si tocas ese indicador, la app puede llevarte directamente a la sección de donados.
+
+Marcar un objeto como donado
+
+Cuando marcas el checkbox:
+
+El objeto se guarda como donado
+
+Se mueve automáticamente a la sección inferior
+
+El progreso se actualiza solo
+
+No necesitas guardar nada manualmente.
+
+Pantalla de detalles
+
+Al tocar el icono ℹ️ entras en una pantalla con:
+
+Nombre completo
+
+Descripción
+
+Categoría
+
+Estado (donado / no donado)
+
+Desde aquí puedes:
+
+✏️ Editar el objeto
+
+🗑️ Eliminarlo
+
+📤 Compartirlo por WhatsApp
+
+Compartir por WhatsApp
+
+Cuando compartes:
+
+Se envía un texto limpio (sin símbolos raros)
+
+Incluye el nombre y la descripción
+
+Puede incluir un enlace interno a la app
+
+Está pensado para que se lea bien fuera de la app.
+
+Sin conexión y actualización automática
+
+Si no hay internet, la app sigue funcionando
+
+Cuando haces scroll hacia arriba, la app intenta actualizar la información automáticamente
+
+No hace falta pulsar botones de “refrescar”
+
+En resumen
+
+Esta app sirve para:
+
+📋 Llevar listas de coleccionables
+
+✅ Marcar lo que ya tienes
+
+🎯 Ver tu progreso claramente
+
+📤 Compartir información fácilmente
+
+🧠 Usarla sin saber nada de Animal Crossing
+
+Es como un álbum de cromos digital, pero organizado, bonito y automático.
+
 
 ## 👤 Autores
-
 - Moree7
 - ihateblonde
 
