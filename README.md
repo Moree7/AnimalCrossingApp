@@ -85,15 +85,14 @@ Así siempre ves primero lo que te falta
 
 Arriba verás algo como:
 
-```txt
+```
 Progreso: 12 / 80 (15%)
 ````
 Eso significa cuántos llevas completados.
 
 Si tocas ese indicador, la app puede llevarte directamente a la sección de donados.
 
-Marcar un objeto como donado
-
+</details><details> <summary><b>✅ Marcar un objeto como donado</b></summary>
 Cuando marcas el checkbox:
 
 El objeto se guarda como donado
@@ -102,10 +101,9 @@ Se mueve automáticamente a la sección inferior
 
 El progreso se actualiza solo
 
-No necesitas guardar nada manualmente.
+No necesitas guardar nada manualmente
 
-Pantalla de detalles
-
+</details><details> <summary><b>📄 Pantalla de detalles</b></summary>
 Al tocar el icono ℹ️ entras en una pantalla con:
 
 Nombre completo
@@ -119,11 +117,12 @@ Estado (donado / no donado)
 Desde aquí puedes:
 
 ✏️ Editar el objeto
+
 🗑️ Eliminarlo
+
 📤 Compartirlo por WhatsApp
 
-Compartir por WhatsApp
-
+</details><details> <summary><b>📤 Compartir por WhatsApp</b></summary>
 Cuando compartes:
 
 Se envía un texto limpio (sin símbolos raros)
@@ -132,32 +131,28 @@ Incluye el nombre y la descripción
 
 Puede incluir un enlace interno a la app
 
-Está pensado para que se lea bien fuera de la app.
+Está pensado para que se lea bien fuera de la app
 
-Sin conexión y actualización automática
-
+</details><details> <summary><b>📶 Sin conexión y actualización automática</b></summary>
 Si no hay internet, la app sigue funcionando
 
 Cuando haces scroll hacia arriba, la app intenta actualizar la información automáticamente
 
-No hace falta pulsar botones de “refrescar”
+No hace falta pulsar botones de "refrescar"
 
-En resumen
+</details>
+👤 Autores
+Moree7
+
+ihateblonde
+
 <div align="center">
+<strong>📋 Llevar listas de coleccionables
 
-📋 Llevar listas de coleccionables
 ✅ Marcar lo que ya tienes
+
 🎯 Ver tu progreso claramente
+
 📤 Compartir información fácilmente
-🧠 Usarla sin saber nada de Animal Crossing
 
-<br/>
-
-<strong>Es como un álbum de cromos digital, pero organizado, bonito y automático.</strong>
-
-</div> ```
-
-## 👤 Autores
-- Moree7
-- ihateblonde
-
+🧠 Usarla sin saber nada de Animal Crossing</strong>
