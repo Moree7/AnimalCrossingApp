@@ -8,7 +8,6 @@
   <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white"/>
   <img src="https://img.shields.io/badge/Build-Gradle-02303A?style=flat-square&logo=gradle&logoColor=white"/>
   <img src="https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square"/>
-  <img src="https://img.shields.io/badge/License-Apache%202.0-FCC624?style=flat-square"/>
 </p>
 
 </div>
@@ -89,7 +88,6 @@ Arriba verás algo como:
 ```txt
 Progreso: 12 / 80 (15%)
 ````
-
 Eso significa cuántos llevas completados.
 
 Si tocas ese indicador, la app puede llevarte directamente a la sección de donados.
@@ -157,7 +155,7 @@ En resumen
 
 <strong>Es como un álbum de cromos digital, pero organizado, bonito y automático.</strong>
 
-</div>
+</div> ```
 
 ## 👤 Autores
 - Moree7
