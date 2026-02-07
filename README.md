@@ -101,12 +101,6 @@ Comparte información de objetos con otros jugadores directamente por WhatsApp.
 La app funciona sin internet y actualiza automáticamente cuando vuelves a tener conexión.
 </details>
 
-<details>
-<summary><b>🔗 Autores</b></summary>
-**Moree7**  
-**hateblonde**
-</details>
-
 ---
 
 ## En resumen
