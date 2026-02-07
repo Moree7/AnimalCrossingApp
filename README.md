@@ -77,7 +77,7 @@ Así siempre ves primero lo que te falta
 
 # Progreso
 ````
-**Progreso:** 12 / 88 (15%)
+Progreso: 12 / 88 (15%)
 ````
 Eso significa cuántos llevas completados.
 
