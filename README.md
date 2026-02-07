@@ -124,3 +124,7 @@ Esta app sirve para:
 **🧠 Usarla sin saber nada de Animal Crossing**
 
 *Es como un álbum de cromos digital, pero organizado, bonito y automático.*
+
+## Autores
+**Moree7**  
+**hateblonde**
