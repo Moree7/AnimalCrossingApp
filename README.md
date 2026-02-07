@@ -44,7 +44,7 @@ Cada elemento de la lista es un objeto coleccionable con:
 
 ---
 
-## Pantalla principal (Inicio)
+# Pantalla principal (Inicio)
 
 Desde la pantalla de inicio puedes:
 
@@ -55,104 +55,74 @@ No necesitas saber qué es cada cosa: la app te guía visualmente.
 
 ---
 
-## Pantalla de lista (una categoría)
+# Pantalla de lista (una categoría)
 
 Aquí ves todos los objetos de una categoría.
 
 Cada tarjeta muestra:
 
-⬜ Un checkbox → marca si ya lo has “donado”
-
-ℹ️ Un icono de información → abre los detalles
-
-✏️ Un icono de editar → cambia nombre o descripción
+- Un checkbox → marca si ya lo has "donado"
+- Un icono de información → abre los detalles
+- Un icono de editar → cambia nombre o descripción
 
 ---
 
-## Organización inteligente
-
-<div align="center">
+# Organización inteligente
 
 Los objetos NO donados aparecen arriba  
 Los donados se agrupan abajo en una sección plegable  
-Así siempre ves primero lo que te falta
-
-</div>
+Así siempre ves primero lo que te falta  
 
 ---
 
-## Progreso
+# Progreso
 
-Arriba verás algo como:
+**Progreso:** 12 / 88 (15%)
 
-```
-Progreso: 12 / 80 (15%)
-````
 Eso significa cuántos llevas completados.
 
-Si tocas ese indicador, la app puede llevarte directamente a la sección de donados.
+Si tocas ese indicador, la app puede llevar directamente a la sección de donados.
 
-</details><details> <summary><b>✅ Marcar un objeto como donado</b></summary>
-Cuando marcas el checkbox:
-
-El objeto se guarda como donado
-
-Se mueve automáticamente a la sección inferior
-
-El progreso se actualiza solo
-
-No necesitas guardar nada manualmente
-
-</details><details> <summary><b>📄 Pantalla de detalles</b></summary>
-Al tocar el icono ℹ️ entras en una pantalla con:
-
-Nombre completo
-
-Descripción
-
-Categoría
-
-Estado (donado / no donado)
-
-Desde aquí puedes:
-
-✏️ Editar el objeto
-
-🗑️ Eliminarlo
-
-📤 Compartirlo por WhatsApp
-
-</details><details> <summary><b>📤 Compartir por WhatsApp</b></summary>
-Cuando compartes:
-
-Se envía un texto limpio (sin símbolos raros)
-
-Incluye el nombre y la descripción
-
-Puede incluir un enlace interno a la app
-
-Está pensado para que se lea bien fuera de la app
-
-</details><details> <summary><b>📶 Sin conexión y actualización automática</b></summary>
-Si no hay internet, la app sigue funcionando
-
-Cuando haces scroll hacia arriba, la app intenta actualizar la información automáticamente
-
-No hace falta pulsar botones de "refrescar"
-
+<details>
+<summary><b>🏅 Marcar un objeto como donado</b></summary>
+Cuando marcas un objeto como donado, se mueve automáticamente a la sección de donados y tu progreso se actualiza.
 </details>
-👤 Autores
-Moree7
 
-ihateblonde
+<details>
+<summary><b>📄 Pantalla de detalles</b></summary>
+Aquí puedes ver toda la información del objeto: nombre, descripción, categoría y estado.
+</details>
 
-<div align="center">
-<strong>📋 Llevar listas de coleccionables
+<details>
+<summary><b>💡 Compartir por WhatsApp</b></summary>
+Comparte información de objetos con otros jugadores directamente por WhatsApp.
+</details>
 
-✅ Marcar lo que ya tienes
+<details>
+<summary><b>🌐 Sin conexión y actualización automática</b></summary>
+La app funciona sin internet y actualiza automáticamente cuando vuelves a tener conexión.
+</details>
 
-🎯 Ver tu progreso claramente
+<details>
+<summary><b>🔗 Autores</b></summary>
+**Moree7**  
+**hateblonde**
+</details>
 
-📤 Compartir información fácilmente
+---
 
-🧠 Usarla sin saber nada de Animal Crossing</strong>
+## En resumen
+
+Esta app sirve para:
+
+**📋 Llevar listas de coleccionables**
+
+**✅ Marcar lo que ya tienes**
+
+**🎯 Ver tu progreso claramente**
+
+**📤 Compartir información fácilmente**
+
+**🧠 Usarla sin saber nada de Animal Crossing**
+
+*Es como un álbum de cromos digital, pero organizado, bonito y automático.*
