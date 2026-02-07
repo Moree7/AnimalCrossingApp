@@ -72,10 +72,7 @@ Cada tarjeta muestra:
 Los objetos NO donados aparecen arriba  
 Los donados se agrupan abajo en una sección plegable  
 Así siempre ves primero lo que te falta  
-
----
-
-# Progreso
+Progreso
 ````
 Progreso: 12 / 88 (15%)
 ````
