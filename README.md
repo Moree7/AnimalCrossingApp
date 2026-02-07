@@ -1,14 +1,17 @@
 # 🌿 Animal Crossing App 🌿
 
-¿Qué es esta app y para qué sirve?
+<details open> <summary><strong>¿Qué es esta app y para qué sirve?</strong></summary>
 
 Esta app es una guía personal de coleccionables inspirada en Animal Crossing.
+
 En el juego, los jugadores pueden encontrar y donar distintos objetos a un museo.
+
 La app te ayuda a llevar el control de esos objetos, aunque no juegues ni conozcas el juego.
 
 Piensa en ella como una lista de colecciones organizada y visual.
 
-¿Qué tipo de cosas hay en la app?
+</details>
+<details open> <summary><strong>¿Qué tipo de cosas hay en la app?</strong></summary>
 
 La app está dividida en categorías, cada una con su propio color:
 
@@ -30,7 +33,8 @@ A veces un subtítulo o descripción
 
 Un estado: donado o no donado
 
-Pantalla principal (Inicio)
+</details>
+<details open> <summary><strong>Pantalla principal (Inicio)</strong></summary>
 
 Desde la pantalla de inicio puedes:
 
@@ -40,7 +44,8 @@ Ver cuántos objetos llevas completados en cada una
 
 No necesitas saber qué es cada cosa: la app te guía visualmente.
 
-Pantalla de lista (una categoría)
+</details>
+<details open> <summary><strong>Pantalla de lista (una categoría)</strong></summary>
 
 Aquí ves todos los objetos de una categoría.
 
@@ -52,27 +57,29 @@ Cada tarjeta muestra:
 
 ✏️ Un icono de editar → cambia nombre o descripción
 
-Organización inteligente
+</details>
+<details open> <summary><strong>Organización inteligente</strong></summary>
 
 Los objetos NO donados aparecen arriba
 
 Los donados se agrupan abajo en una sección plegable
 
-Así siempre ves primero lo que te falta.
+Así siempre ves primero lo que te falta
 
-Progreso
+</details>
+<details open> <summary><strong>Progreso</strong></summary>
 
 Arriba verás algo como:
-```
+
 Progreso: 12 / 80 (15%)
 
-```
 
 Eso significa cuántos llevas completados.
 
 Si tocas ese indicador, la app puede llevarte directamente a la sección de donados.
 
-Marcar un objeto como donado
+</details>
+<details open> <summary><strong>Marcar un objeto como donado</strong></summary>
 
 Cuando marcas el checkbox:
 
@@ -84,7 +91,8 @@ El progreso se actualiza solo
 
 No necesitas guardar nada manualmente.
 
-Pantalla de detalles
+</details>
+<details open> <summary><strong>Pantalla de detalles</strong></summary>
 
 Al tocar el icono ℹ️ entras en una pantalla con:
 
@@ -104,7 +112,8 @@ Desde aquí puedes:
 
 📤 Compartirlo por WhatsApp
 
-Compartir por WhatsApp
+</details>
+<details open> <summary><strong>Compartir por WhatsApp</strong></summary>
 
 Cuando compartes:
 
@@ -116,7 +125,8 @@ Puede incluir un enlace interno a la app
 
 Está pensado para que se lea bien fuera de la app.
 
-Sin conexión y actualización automática
+</details>
+<details open> <summary><strong>Sin conexión y actualización automática</strong></summary>
 
 Si no hay internet, la app sigue funcionando
 
@@ -124,7 +134,8 @@ Cuando haces scroll hacia arriba, la app intenta actualizar la información auto
 
 No hace falta pulsar botones de “refrescar”
 
-En resumen
+</details>
+<details open> <summary><strong>En resumen</strong></summary>
 
 Esta app sirve para:
 
@@ -140,6 +151,7 @@ Esta app sirve para:
 
 Es como un álbum de cromos digital, pero organizado, bonito y automático.
 
+</details>
 
 ## 👤 Autores
 - Moree7
