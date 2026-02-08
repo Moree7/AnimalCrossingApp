@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>🐾 Animal Crossing App</h1>
+<h1> Animal Crossing App </h1>
 
 <p>
   <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
