@@ -103,6 +103,10 @@ La app funciona sin internet y actualiza automáticamente cuando vuelves a tener
 
 ---
 
+## Arquitectura
+````
+
+````
 ## En resumen
 
 Esta app sirve para:
