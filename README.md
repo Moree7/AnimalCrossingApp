@@ -102,9 +102,58 @@ La app funciona sin internet y actualiza automáticamente cuando vuelves a tener
 </details>
 
 ---
-
 ## Arquitectura
-````
+```
+com.example.animalcrossingapp
+├── MainActivity.kt                ## Actividad principal de la aplicación.
+│                                  ## Es el punto de entrada y contiene el setContent
+│                                  ## donde se inicializa Jetpack Compose y la navegación.
+
+├── AnimalCrossingApp.kt           ## Clase Application.
+│                                  ## Se encarga de la inicialización global de la app,
+│                                  ## como la configuración de dependencias (Hilt).
+
+├── data                           ## Capa de datos.
+│ ├── local                        ## Gestión de datos locales (base de datos, cache).
+│ ├── remote                       ## Gestión de datos remotos (API, servicios externos).
+│ └── repository                   ## Repositorios que unifican el acceso a datos locales
+│                                  ## y remotos y los exponen al dominio y a los ViewModels.
+
+├── di                             ## Inyección de dependencias.
+│ └── AppModule.kt                 ## Módulo donde se definen las dependencias principales
+│                                  ## de la aplicación usando Hilt.
+
+├── domain                         ## Capa de dominio.
+│ └── CollectibleType.kt           ## Definición de tipos o modelos de negocio,
+│                                  ## como las categorías de coleccionables.
+
+├── navigation                     ## Gestión de la navegación.
+│ ├── AppNavigation.kt             ## Define el NavHost y las rutas de navegación entre pantallas
+│                              
+│ └── Screen.kt                    ## Enum o sealed class que representa cada pantalla y sus rutas.
+│                             
+├── ui                             ## Capa de interfaz de usuario (Jetpack Compose).
+│ ├── common                       ## Componentes reutilizables comunes a varias pantallas.
+│ ├── debug                        ## Componentes o pantallas de depuración (si existen).
+│ ├── detail
+│ │ └── DetailScreen.kt            ## Pantalla de detalle de un coleccionable.
+│                                  ## Muestra toda la información del objeto seleccionado.
+│ ├── home
+│ │ └── HomeScreen.kt              ## Pantalla principal (inicio).
+│                                  ## Muestra las categorías y el progreso general.
+│ ├── list
+│ │ ├── CollectibleItem.kt         ## Composable que representa un elemento de la lista
+│ │                            
+│ │ └── ListScreen.kt              ## Pantalla de lista de una categoría concreta.
+│                                  ## Permite marcar objetos como donados o ver detalles.
+│ ├── login
+│ │ └── LoginScreen.kt             ## Pantalla de inicio de sesión (si aplica).
+│ ├── model
+│ │ └── CollectibleUi.kt           ## Modelo de datos específico para la UI, adaptado para ser mostrado en pantalla.
+│                              
+│ └── theme                      
+├── viewModel                      ## Gestionan el estado de la UI y la lógica de presentación siguiendo el patrón MVVM.                                                           
+└── ui.theme                       
 
 ````
 ## En resumen
